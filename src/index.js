@@ -1,4 +1,4 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-const title = React.createElement('h1', null, 'Hello World')
+const title = (<h1 class="">Hello JSX</h1>)
 ReactDOM.render(title, document.querySelector('#root'))
